@@ -1,0 +1,17 @@
+{
+  "name": "snack-tracker",
+  "version": "1.0.0",
+  "description": "a JSON api for the galvanize snack tree",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Coleman Imhoff",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "pg": "^7.4.1"
+  }
+}
